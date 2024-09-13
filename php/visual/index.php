@@ -10,8 +10,8 @@
 
 <body>
     <div class="parent">
-        <div class="div1"> </div>
-        <div class="div2"> </div>
+        <div class="div1">s </div>
+        <div class="div2"> s</div>
     </div>
 </body>
 
