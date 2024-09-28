@@ -10,8 +10,22 @@
 
 <body>
     <div class="parent">
-        <div class="div1">s </div>
-        <div class="div2"> s</div>
+        <div class="header">
+            <div class="topheader">
+            
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#jurassic-park">Jurassic Park</a></li>
+                    <li><a href="#walking-with">Walking With</a></li>
+                    <li><a href="#dinosaur-revolution">Dinosaur Revolution</a></li>
+                    <li><a href="#mas-especies">Más especies</a></li>
+                    <li><a href="#tienda-fisica">Tienda Física</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="body"> </div>
     </div>
 </body>
 
