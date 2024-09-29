@@ -66,6 +66,21 @@ body {
   text-decoration: none;
 }
 
+.menu ul ul {
+  display: none;
+  position: absolute;
+  background: #333;
+  padding: 0;
+  flex-direction: column;
+  gap: 1vh;
+  height: 20vh;
+  width: 20vw;
+}
+
+.menu ul li:hover > ul {
+  display: flex;
+}
+
 .body {
   grid-area: 3 / 1 / 10 / 14;
   background-color: red;
