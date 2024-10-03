@@ -12,7 +12,11 @@
     <div class="parent">
         <div class="header">
             <div class="topheader">
-            
+                <img class="logo" src="../../img/assets/MundoJurasico.png" alt="">
+                <div class="searchbar">
+                    <input type="text" name="searchbar" id="searchbar" placeholder="Search">
+                    <img src="../../img/assets/buscar.png" alt="">
+                </div>
             </div>
             <div class="menu">
                 <ul>

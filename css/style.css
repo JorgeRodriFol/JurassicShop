@@ -25,6 +25,37 @@ body {
 .topheader {
   grid-area: 1 / 1 / 2 / 14;
   background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.logo {
+  height: 13vh;
+}
+
+.searchbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border: solid black 0.2em;
+  border-radius: 5px;
+}
+
+.searchbar input {
+  border: none;
+  height: fit-content;
+  width: 15vw;
+}
+
+.searchbar input:focus {
+  outline: none;
+  border: none;
+}
+
+.searchbar img {
+  height: 4vh;
 }
 
 .menu {
