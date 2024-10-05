@@ -50,20 +50,24 @@
         <div class="body">
             <div class="categoria">
                 <h2>NOVEDADES</h2>
-                <div class="productos" id="novedades">
-                    <div class="producto">
-                        <a href="#rexypop">
-                            <img src="../../img/productos/rexypop.png" alt="">
-                            <div class="info">
-                                <p class="titulo">Funko POP Rexy</p>
-                                <p class="precio">15.00€</p>
-                                <div class="comprar">
-                                    <input type="text" id="cantidad" value="1">
-                                    <button>COMPRAR</button>
+                <div class="carrusel" id="novedadescarrusel">
+                    <img class="left" src="../../img/assets/ic--round-play-arrow.png" alt="">
+                    <div class="productos" id="novedades">
+                        <div class="producto">
+                            <a href="#rexypop">
+                                <img src="../../img/productos/rexypop.png" alt="">
+                                <div class="info">
+                                    <p class="titulo">Funko POP Rexy</p>
+                                    <p class="precio">15.00€</p>
+                                    <div class="comprar">
+                                        <input type="text" id="cantidad" value="1">
+                                        <button>COMPRAR</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
+                    <img class="right" src="../../img/assets/ic--round-play-arrow.png" alt="">
                 </div>
             </div>
         </div>

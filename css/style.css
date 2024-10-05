@@ -137,6 +137,23 @@ p {
   font-family: "Rock Salt", cursive;
 }
 
+.carrusel {
+  display: flex;
+  align-items: center;
+}
+
+.carrusel img {
+  height: 5vh;
+}
+
+.left {
+  rotate: 0;
+}
+
+.right {
+  rotate: 180;
+}
+
 .producto {
   padding: 5%;
   transition: transform 0.25s ease-in-out;
