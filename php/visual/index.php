@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -55,7 +58,7 @@
                                 <p class="titulo">Funko POP Rexy</p>
                                 <p class="precio">15.00€</p>
                                 <div class="comprar">
-                                    <input type="text">
+                                    <input type="text" id="cantidad" value="1">
                                     <button>COMPRAR</button>
                                 </div>
                             </div>
