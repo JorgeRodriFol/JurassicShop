@@ -17,6 +17,9 @@
                     <input type="text" name="searchbar" id="searchbar" placeholder="Search">
                     <img src="../../img/assets/buscar.png" alt="">
                 </div>
+                <img class="usuario" src="../../img/assets/lucide--user-round.png" alt="usuario">
+
+                <img class="compra" src="../../img/assets/compra.png" alt="compra">
             </div>
             <div class="menu">
                 <ul>
@@ -41,7 +44,26 @@
                 </ul>
             </div>
         </div>
-        <div class="body"> </div>
+        <div class="body">
+            <div class="categoria">
+                <h2>NOVEDADES</h2>
+                <div class="productos" id="novedades">
+                    <div class="producto">
+                        <a href="#rexypop">
+                            <img src="../../img/productos/rexypop.png" alt="">
+                            <div class="info">
+                                <p class="titulo">Funko POP Rexy</p>
+                                <p class="precio">15.00€</p>
+                                <div class="comprar">
+                                    <input type="text">
+                                    <button>COMPRAR</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

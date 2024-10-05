@@ -1,5 +1,17 @@
 body {
   margin: 0;
+  background-color: #f5f5dc;
+}
+
+p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Tyrannothesaurus";
+  src: url("./fuentes/Tyrannothesaurus.otf") format("otf");
+  font-weight: normal; /* peso normal */
+  font-style: normal; /* estilo normal */
 }
 
 .parent {
@@ -13,7 +25,6 @@ body {
 
 .header {
   grid-area: 1 / 1 / 3 / 14;
-  background-color: blue;
   display: grid;
   display: grid;
   grid-template-columns: repeat(13, 1fr);
@@ -24,7 +35,7 @@ body {
 
 .topheader {
   grid-area: 1 / 1 / 2 / 14;
-  background-color: aquamarine;
+  background-color: #708090;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,6 +69,11 @@ body {
   height: 4vh;
 }
 
+.usuario,
+.compra {
+  height: 10vh;
+}
+
 .menu {
   grid-area: 2 / 1 / 3 / 14;
 }
@@ -66,7 +82,7 @@ body {
   list-style-type: none; /* Sin viñetas */
   margin: 0;
   padding: 0;
-  background-color: #333; /* Fondo del menú */
+  background-color: #2f4f4f; /* Fondo del menú */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -83,10 +99,6 @@ body {
   margin: 0;
 }
 
-.menu li:hover {
-  background-color: #111;
-}
-
 .menu li a {
   width: 100%;
   height: 100%;
@@ -100,7 +112,6 @@ body {
 .menu ul ul {
   display: none;
   position: absolute;
-  background: #333;
   padding: 0;
   flex-direction: column;
   gap: 1vh;
@@ -112,7 +123,57 @@ body {
   display: flex;
 }
 
+.menu ul li li:hover {
+  background: #333;
+}
+
 .body {
   grid-area: 3 / 1 / 10 / 14;
-  background-color: red;
+  display: flex;
+  padding-left: 5vw;
+}
+
+.categoria h2 {
+  font-family: "Tyrannothesaurus";
+}
+
+.producto {
+  padding: 5%;
+  transition: transform 0.25s ease-in-out;
+}
+
+.producto a {
+  text-decoration: none;
+  color: black;
+}
+
+.producto img {
+  height: 30vh;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+.comprar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.comprar input {
+  width: 2vw;
+  border-radius: 10px;
+  border: solid #2f4f4f 0.2em;
+  text-align: center;
+}
+
+.comprar button {
+  border-radius: 10px;
+  background-color: #2f4f4f;
+  color: #f5f5dc;
 }
