@@ -60,7 +60,7 @@
                     <img class="left" src="../../img/assets/ic--round-play-arrow.png" alt="">
                     <div class="productos" id="novedades">
                         <div class="producto">
-                            <a href="#rexypop">
+                            <a href="./producto.php">
                                 <img src="../../img/productos/rexypop.png" alt="">
                                 <div class="info">
                                     <p class="titulo">Funko POP Rexy</p>

@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/productoStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -51,7 +54,7 @@
             </div>
         </div>
         <div class="body">
-
+        <p class="breadcap"><a href="./index.php">Inicio</a> > <a href="#jp">Jurassic Park</a> > Funko POP Rexy Jurassic Park</p>
         </div>
     </div>
 </body>

@@ -122,6 +122,17 @@ p {
 
 .body {
   grid-area: 3 / 1 / 10 / 14;
-  display: flex;
   padding-left: 5vw;
+}
+
+.breadcap,
+.breadcap a {
+  font-family: "Rock Salt", cursive;
+  font-size: small;
+  color: #a8a890;
+  text-decoration: none;
+}
+
+.breadcap a:hover {
+  color: #9090a8;
 }
