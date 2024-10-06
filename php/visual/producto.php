@@ -54,7 +54,10 @@
             </div>
         </div>
         <div class="body">
-        <p class="breadcap"><a href="./index.php">Inicio</a> > <a href="#jp">Jurassic Park</a> > Funko POP Rexy Jurassic Park</p>
+            <p class="breadcap"><a href="./index.php">Inicio</a> > <a href="#jp">Jurassic Park</a> > Funko POP Rexy Jurassic Park</p>
+            <div class="producto">
+                
+            </div>
         </div>
     </div>
 </body>
