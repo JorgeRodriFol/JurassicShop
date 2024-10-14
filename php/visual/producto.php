@@ -56,7 +56,9 @@
         <div class="body">
             <p class="breadcap"><a href="./index.php">Inicio</a> > <a href="#jp">Jurassic Park</a> > Funko POP Rexy Jurassic Park</p>
             <div class="producto">
-                
+                <div class="imagen">
+                    <img src="../../img/productos/rexypop.png" alt="">
+                </div>
             </div>
         </div>
     </div>

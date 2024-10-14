@@ -136,3 +136,7 @@ p {
 .breadcap a:hover {
   color: #9090a8;
 }
+
+.producto img {
+  height: 50vh;
+}
