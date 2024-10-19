@@ -137,6 +137,82 @@ p {
   color: #9090a8;
 }
 
+.producto {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}
+
 .producto img {
   height: 50vh;
+}
+
+.acciones {
+  display: flex;
+  gap: 2vw;
+}
+
+.comprar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.comprar input {
+  width: 2vw;
+  border-radius: 10px;
+  border: solid #2f4f4f 0.2em;
+  text-align: center;
+}
+
+.comprar button {
+  border-radius: 10px;
+  background-color: #2f4f4f;
+  color: #f5f5dc;
+}
+
+.rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  display: inline-block;
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+/* Ocultar los botones de radio */
+.rating input[type="radio"] {
+  display: none;
+}
+
+/* Estrellas predeterminadas (gris) */
+.rating label {
+  color: #ccc;
+  float: right;
+}
+
+/* Al pasar el cursor sobre las estrellas */
+.rating label:hover,
+.rating label:hover ~ label {
+  color: gold;
+}
+
+/* Cuando se selecciona una estrella */
+.rating input[type="radio"]:checked ~ label {
+  color: gold;
+}
+
+.info {
+  text-align: right;
+}
+
+.info table,
+.info tr,
+.info th,
+.info td {
+  border: solid black 0.1em;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
 }

@@ -58,6 +58,46 @@
             <div class="producto">
                 <div class="imagen">
                     <img src="../../img/productos/rexypop.png" alt="">
+                    <div class="acciones">
+                        <div class="comprar">
+                            <input type="text" id="cantidad" value="1">
+                            <button>COMPRAR</button>
+                        </div>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" />
+                            <label for="star5" title="5 stars">&#9733;</label>
+                            <input type="radio" id="star4" name="rating" value="4" />
+                            <label for="star4" title="4 stars">&#9733;</label>
+                            <input type="radio" id="star3" name="rating" value="3" />
+                            <label for="star3" title="3 stars">&#9733;</label>
+                            <input type="radio" id="star2" name="rating" value="2" />
+                            <label for="star2" title="2 stars">&#9733;</label>
+                            <input type="radio" id="star1" name="rating" value="1" />
+                            <label for="star1" title="1 star">&#9733;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <h1>FUNCO POP REXY JURASSIC PARK</h1>
+                    <h1>15.00€</h1>
+                    <h2>Descripción</h2>
+                    <table>
+                        <tr>
+                            <th colspan="2">CARACTERISTICAS</th>
+                        </tr>
+                        <tr>
+                            <td class="titulo">SAGA</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="titulo">TIPO</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="titulo">TAMAÑO</td>
+                            <td>15 cm</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
