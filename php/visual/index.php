@@ -32,41 +32,40 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#ofertas">Ofertas</a></li>
-                    <li><a href="#jurassic-park">Jurassic Park</a>
+                    <li><a href="./productos.php#ofertas">Ofertas</a></li>
+                    <li><a href="./productos.php#jurassic-park">Jurassic Park</a>
                         <ul>
-                            <li><a href="#jp1">Jurassic Park</a></li>
-                            <li><a href="#jp2">Jurassic Park: The Lost World</a></li>
-                            <li><a href="#jp3">Jurassic Park III</a></li>
+                            <li><a href="./productos.php#jp1">Jurassic Park</a></li>
+                            <li><a href="./productos.php#jp2">Jurassic Park: The Lost World</a></li>
+                            <li><a href="./productos.php#jp3">Jurassic Park III</a></li>
                         </ul>
                     </li>
-                    <li><a href="#walking-with">Walking With</a>
+                    <li><a href="./productos.php#walking-with">Walking With</a>
                         <ul>
-                            <li><a href="#WWM">Walking With Monsters</a></li>
-                            <li><a href="#WWD">Walking With Dinosaurs</a></li>
-                            <li><a href="#WWB">Walking With Beast</a></li>
+                            <li><a href="./productos.php#WWM">Walking With Monsters</a></li>
+                            <li><a href="./productos.php#WWD">Walking With Dinosaurs</a></li>
+                            <li><a href="./productos.php#WWB">Walking With Beast</a></li>
                         </ul>
                     </li>
-                    <li><a href="#dinosaur-revolution">Dinosaur Revolution</a></li>
-                    <li><a href="#mas-especies">Más especies</a>
+                    <li><a href="./productos.php#dinosaur-revolution">Dinosaur Revolution</a></li>
+                    <li><a href="./productos.php#mas-especies">Más especies</a>
                         <ul>
-                            <li><a href="#triasico">Triasico</a></li>
-                            <li><a href="#jurasico">Jurasico</a></li>
-                            <li><a href="#cretacico">Cretacico</a></li>
+                            <li><a href="./productos.php#triasico">Triasico</a></li>
+                            <li><a href="./productos.php#jurasico">Jurasico</a></li>
+                            <li><a href="./productos.php#cretacico">Cretacico</a></li>
                         </ul>
                     </li>
-                    <li><a href="#tienda-fisica">Tienda Física</a></li>
+                    <li><a href="./productos.php#tienda-fisica">Tienda Física</a></li>
                 </ul>
             </div>
         </div>
         <div class="body">
             <div class="categoria">
-                <h2>NOVEDADES</h2>
                 <div class="carrusel" id="novedadescarrusel">
                     <img class="left" src="../../img/assets/ic--round-play-arrow.png" alt="">
                     <div class="productos" id="novedades">
                         <div class="producto">
-                            <a href="./producto.php">
+                            <a href="./producto.php#rexy">
                                 <img src="../../img/productos/rexypop.png" alt="">
                                 <div class="info">
                                     <p class="titulo">Funko POP Rexy</p>
