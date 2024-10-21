@@ -205,6 +205,9 @@ p {
 
 .info {
   text-align: right;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .info table,
@@ -214,5 +217,12 @@ p {
   border: solid black 0.1em;
   border-collapse: collapse;
   text-align: center;
+}
+
+table {
   width: 100%;
+}
+
+table .titulo {
+  width: 20%;
 }

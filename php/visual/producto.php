@@ -87,11 +87,11 @@
                         </tr>
                         <tr>
                             <td class="titulo">SAGA</td>
-                            <td></td>
+                            <td>Jurassic Park</td>
                         </tr>
                         <tr>
                             <td class="titulo">TIPO</td>
-                            <td></td>
+                            <td>Vinilo</td>
                         </tr>
                         <tr>
                             <td class="titulo">TAMAÑO</td>

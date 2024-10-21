@@ -20,7 +20,13 @@
                     <input type="text" name="searchbar" id="searchbar" placeholder="Search">
                     <img src="../../img/assets/buscar.png" alt="">
                 </div>
-                <img class="usuario" src="../../img/assets/lucide--user-round.png" alt="usuario">
+                <div class="perfil">
+                    <img class="usuario" src="../../img/assets/lucide--user-round.png" alt="usuario">
+                    <ul>
+                        <li><a href="#jp1">Mi Perfil</a></li>
+                        <li><a href="#jp2">Cerrar Sesión</a></li>
+                    </ul>
+                </div>
 
                 <img class="compra" src="../../img/assets/compra.png" alt="compra">
             </div>
